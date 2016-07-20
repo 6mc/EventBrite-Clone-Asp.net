@@ -5,14 +5,64 @@ body{
   margin-top: 250px;
   text-align: center;
 }
+#line
+{
+  position:absolute;
+  margin-top: -14px;
+   z-index: 1;
+   height: 1px;
+   width: 250px;
+   background: white;
+ }
 #topos{
+
 color: #aeb0a5;
+
+  font-size: 120%;
+  font-family: Tahoma, Geneva, sans-serif ;
+}
+
+li:hover {
+  background-color: turquoise;
+
+  border-color: #004f7b; }
+
+li {
+  display: inline;
+
+  top: 0px;
+}
+form{
+  display: inline;
+}
+#big img{
+  display: inline;
+
+}
+#content img{
+
+ display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 #content{
 color: #aeb0a5;
-margin-left: 100px;
-margin-top: 35px;
+  margin: 50px;
+font-size: 14px;
 
+margin-top: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+}
+#second{
+margin-left: 360px;
+  margin-top: -408px;
+}
+#first{
+  width: 300px;
 }
 #lefts{
 
@@ -23,20 +73,38 @@ margin-left: 45px;
 font-size: 120%;
 
 }
+
 #big{
 
-
+height: 50px;
 position: absolute;
 top: 0px;
 right: 0px;
 left: 0px;
-  vertical-align: middle;
+  width: 1365px;
+  display: table;
+
   background-color: #282828;
   color: #aeb0a5;
 
 }
-#header{  vertical-align: middle;
-
+#big li{
+  display: table-cell;
+  vertical-align: middle;
+right: 20px;
   text-align: center;
-  -moz-placeholder {font-style: italic}
+  font-size: 120%;
+  font-family: Tahoma, Geneva, sans-serif ;
+}
+
+#big form {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+#header{  vertical-align: middle;
+  display: inline;
+  text-align: center;
+
 }
