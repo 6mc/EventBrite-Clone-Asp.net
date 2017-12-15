@@ -1,10 +1,3 @@
 # css
 
-HELLO everybody i hope everyone is OK
-
-that's the design of my one of future projects "FUN"
-that was enjoyable to use css for me again after a long time 
-
-
-
-Thanks...
+EventBrite Clone Website Unfinished Project For Database Lesson, U need Database to Use it which is already included in project as diego.sql
